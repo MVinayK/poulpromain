@@ -16,6 +16,8 @@
 
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/responsiveslides.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -27,12 +29,13 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script src="js/pace.min.js"></script>
-    <link href="css/pace-theme-corner-indicator.css" rel="stylesheet" />
+    <!--<script src="js/pace.min.js"></script>
+    <link href="css/pace-theme-corner-indicator.css" rel="stylesheet" />-->
 </head>
 
 
 <body id="page-top">
+
 	    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -40,14 +43,15 @@
                 <button id= "menuMain" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only"></span><i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">PoulPro Solutions</a>
+                <!--<a class="navbar-brand page-scroll" href="#page-top">PoulPro Solutions</a>-->
+                <a href="#top"><img src="img/logo.png" class="img-responsive logo"/></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul id="navbar" class="nav navbar-nav navbar-right">
 					          <li>
-						            <a class="page-scroll" href="#top">Home</a>
+						            <a class="page-scroll" href="#home">Home</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">About</a>
@@ -71,39 +75,163 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <!-- Header -->
-    <header id="top" class="header">
-        <div class="text-vertical-center">
-            <h1>PoulPro Content Goes Here</h1>
-            <h3>Writing about Vision and mission</h3>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find More</a>
-        </div>
-    </header>
 
-    <!-- About -->
-    <aside id="about" class="callout">
-        <div class="text-vertical-center">
-            <h1>Highly Skilled Doctors and Genetic Engineers</h1>
+
+<div id="mycarousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#mycarousel" data-slide-to="1"></li>
+    <li data-target="#mycarousel" data-slide-to="2"></li>
+    <li data-target="#mycarousel" data-slide-to="3"></li>
+    <li data-target="#mycarousel" data-slide-to="4"></li>
+    <li data-target="#mycarousel" data-slide-to="5"></li>
+    <li data-target="#mycarousel" data-slide-to="6"></li>
+    <li data-target="#mycarousel" data-slide-to="7"></li>
+    <li data-target="#mycarousel" data-slide-to="8"></li>
+    <li data-target="#mycarousel" data-slide-to="9"></li>
+    <li data-target="#mycarousel" data-slide-to="10"></li>
+    <li data-target="#mycarousel" data-slide-to="11"></li>
+  </ol>
+<!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/bg.jpg" data-color="lightblue" style="height:100vh; width:100vw" alt="Responsive image" >
+      <div class="carousel-caption">
+          <h3></h3>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/bg1.jpg" data-color="firebrick" style="height:100vh; width:100vw" alt="Responsive image">
+      <div class="carousel-caption">
+          <h3></h3>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/bg2.jpg" data-color="violet" style="height:100vh; width:100vw" alt="Responsive image">
+      <div class="carousel-caption">
+          <h3></h3>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/bg3.jpg" data-color="lightgreen" style="height:100vh; width:100vw" alt="Responsive image">
+      <div class="carousel-caption">
+          <h3></h3>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/bg4.jpg" data-color="tomato" style="height:100vh; width:100vw" alt="Fifth Image" >
+      <div class="carousel-caption">
+          <h3></h3>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/bg5.jpg" data-color="tomato" style="height:100vh; width:100vw" alt="Fifth Image" >
+      <div class="carousel-caption">
+          <h3></h3>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/bg6.jpg" data-color="tomato" style="height:100vh; width:100vw" alt="Fifth Image" >
+      <div class="carousel-caption">
+          <h3></h3>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/bg7.jpg" data-color="tomato" style="height:100vh; width:100vw" alt="Fifth Image" >
+      <div class="carousel-caption">
+          <h3></h3>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/bg8.jpg" data-color="tomato" style="height:100vh; width:100vw" alt="Fifth Image" >
+      <div class="carousel-caption">
+          <h3></h3>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/bg9.jpg" data-color="tomato" style="height:100vh; width:100vw" alt="Fifth Image" >
+      <div class="carousel-caption">
+          <h3></h3>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/bg10.jpg" data-color="tomato" style="height:100vh; width:100vw" alt="Fifth Image" >
+      <div class="carousel-caption">
+          <h3></h3>
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/bg11.jpg" data-color="tomato" style="height:100vh; width:100vw" alt="Fifth Image" >
+      <div class="carousel-caption">
+          <h3></h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<!-- About -->
+<aside id="home" class="callout" style="height:100vh">
+    <div class="text-vertical-center">
+        <p style="font-size:26px;padding:10px" >
+          Welcome to Poulpro  Solutions. As the name spells, we provide the qualitative solutions for quantitative profits
+          to poultry fraternity. We are proud to present ourselves as one of the fastest growing organization in the
+          medicated feed additives business. We commit our expertise and skills to the continued availability of healthy
+          and important products, for the prevention and treatment of diseases in poultry species.
+          <br>
+          Poulpro Solutions always gives top priority to the customers&#39; needs and will make them feel to maintain a long
+          term relationship with commitment, liability, reputation, and superior products. Our real-time field knowledge
+          and experienced representatives will help us to always maintain our products in high standards of quality,
+          safety, efficacy, and traceability. In addition, we offer our customers with an excellent, quick-timed sales and
+          technical support.
+        </p>
+    </div>
+</aside>
+
+    <section style="background-color:#e55100 " id="about" class="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 ">
+                <img src="img/egg.png" alt="logo" class="img-responsive aboutUsImg">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12">
+              <p class="aboutContent" style="color:#eff2f1">
+                We, the key people of <strong style="color:blue">Poulpro</strong> are serving the industry for three decadesinto various divisions viz.,
+                Sales, Distribution and Marketing. As a result we have a through knowledge on the situation of today's
+                poultry farming and the needs of farmers and species on timely basis. We also take special interest
+                in suggesting our farmers and distributers with the latest available drugs and its purpose that yeilds
+                good and healthy habits in farming. Poultry farming is not only the process of raising domestic birds
+                and animals for meat, eggs and making out money, We believe in the concept of "Healthy Poultry- Healthy Nation".
+              </p>
+            </div>
+           </div>
         </div>
-    </aside>
+    </section>
 
     <!-- Vision -->
-    <section id="vision" class="vision bg-primary">
+    <section class="vision" id="vision" style="">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="col-lg-12 text-center" style="color:#040484">
                     <h2>Our Vision</h2>
-                    <p class="lead">"Our vision is to be a leader in providing safe and high quality products to our esteemed customers
+                    <p class="lead" >"Our vision is to be a leader in providing safe and high quality products to our esteemed customers
                        thereby serving our primary commitment to fulfil their needs.
                       We want to stand recognised and well respected in the community and the industry of which we are a part"</p>
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- Mission -->
-    <section id="mission" class="mission">
+</section>
+      <!-- Mission -->
+      <section style="background-color: rgba(255, 255, 0, 0.38); color: red;" class="mission">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -116,67 +244,48 @@
                 </div>
             </div>
         </div>
-    </section>
+  </section>
 
     <!-- Services -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="services bg-primary">
+    <section id="services" class="service">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
                     <h2>Our Services</h2>
                     <hr class="small">
                     <div class="row">
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-4 col-sm-6">
+                          <div class="service-item">
+                              <div class="user jayaram">
+                              </div>
+                              <h4>
+                                  <strong>Dr Jayaram Krishnarajan</strong>
+                              </h4>
+                              <p>Best in class lab of ours provide intelligent poultry health solutions</p>
+                              <a href="#" class="btn btn-light" data-toggle="modal" data-target="#jayaramModalId">About Him</a>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
-                            </span>
+                                <div class="user sanjay">
+                                </div>
                                 <h4>
-                                    <strong>Our Labs</strong>
+                                    <strong>Dr Sanjay Krishanrao Suryawanshi</strong>
                                 </h4>
                                 <p>Best in class lab of ours provide intelligent poultry health solutions</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <a href="#" class="btn btn-light" data-toggle="modal" data-target="#sanjayModalId">About Him</a>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-4 col-sm-6">
                             <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
-                            </span>
+                                <div class="user sadashiv">
+                                </div>
                                 <h4>
-                                    <strong>Medical Consulting</strong>
+                                    <strong>Dr Sadashiv Rokade</strong>
                                 </h4>
-                                <p>Best in the industry Medical solutions</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Pultry Health Consulting</strong>
-                                </h4>
-                                <p>We provide your poultry health solutions</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Product Solutions</strong>
-                                </h4>
-                                <p>Your business health is our primary concern</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <p>Best in class lab of ours provide intelligent poultry health solutions</p>
+                                <a href="#" class="btn btn-light" data-toggle="modal" data-target="#sadashivModalId">About Him</a>
                             </div>
                         </div>
                     </div>
@@ -201,29 +310,39 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
+                                <img data-name="coliproLitrature" class="img-portfolio img-responsive" src="img/Colipro.png">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <img data-name="promulinLitrature" class="img-portfolio img-responsive" src="img/Promulin.png">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
                                 <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+                                    <img data-name="prozymeLitrature" class="img-portfolio img-responsive" src="img/Prozyme.png">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+                                    <img data-name="prophosLitrature" class="img-portfolio img-responsive" src="img/Prophos.png">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+                                    <img data-name="promuneLitrature" class="img-portfolio img-responsive" src="img/Promune.png">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+                                    <img data-name="csplusLitrature" class="img-portfolio img-responsive" src="img/csplus.jpg">
                                 </a>
                             </div>
                         </div>
@@ -254,8 +373,12 @@
     <!-- Map -->
     <section id="contact" class="map" style="margin:0">
         <!--<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>-->
-        <div style="width: 100%"><iframe width="100%" height="400" src="http://www.mapi.ie/create-google-map/map.php?width=100%&amp;height=600&amp;hl=en&amp;q=Madhapur%20Police%20Station%20+(PoulPro%20Solutions)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=A&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-          <a href="http://www.mapsdirections.info/pt/crie-um-google-map/">Incorporar mapa Google</a> on <a href="http://www.mapsdirections.info/pt/">Calcular Rota</a></iframe></div><br />
+        <div style="width: 100%"><iframe width="100%" height="400" src="http://www.mapi.ie/create-google-map/map.php?width=100%&amp;height=400&amp;hl=en&amp;coord=17.357543,78.528341&amp;q=Lake%20View%20Paradise%20Towers%2C%20Kodandaram%20Nagar%20P%26T%20colony%20Hyderabad%20-%20500061+(PoulPro%20Solutions)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=A&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+          <a href="http://www.mapsdirections.info/pl/stworz-mape-google/">mapa google na stronie</a> na
+          <a href="http://www.mapsdirections.info/pl/">Narzędzie Planowania Trasy</a>
+        </iframe>
+        </div>
+        <br />
         <!-- Replace the value of the key parameter with your own API key. -->
         <br />
 
@@ -266,46 +389,145 @@
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer style="padding-top:0px">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Get In Touch With Us</strong>
-                    </h4>
-                    <p>9/21 Hi-Tech City
-                        <br>Madhapur petrol pump</p>
+                    <!--<h4><strong>Get In Touch With</strong></h4>-->
+                    <img src="img/logo.png" class="logo"/>
+                    <br>
+                    <p>#12-16&17, Flat No. 303, Lake View Paradise Towers,
+                        <br>Kodandaram Nagar P&T Colony, Hyderabad - 500061</p>
                     <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> +91- 4024041333</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="poulprosolutions@gmail.com">poulprosolutions@gmail.com</a>
+                        <li><i class="fa fa-phone fa-fw"></i> 040-24041333</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="poulprosolutions@gmail.com">info@poulpro.in</a>
                         </li>
                     </ul>
                     <br>
                     <ul class="list-inline">
-                        <li>
+                      <!--  <li>
                             <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
+                        </li> -->
                         <!-- <li>
                             <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
                         </li> -->
                     </ul>
                     <hr class="small">
-                    <p class="text-muted">Copyright &copy; poulprosolutions.in</p>
+                    <p class="text-muted">Copyright &copy; www.poulpro.in</p>
                 </div>
             </div>
         </div>
         <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
     </footer>
+
+    <!--Modals to show Profiles and other information -->
+
+    <div class="modal fade bs-example-modal-lg" id="sanjayModalId" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Dr. Sanjay Kishanrao Suryawanshi</h4>
+          </div>
+          <div class="modal-body">
+            <center><div class="user sanjay">
+            </div></center>
+            <h5><strong>M.V.Sc. Pharmacology & Toxicology.</strong><h5>
+
+            <p>
+              He started his career in poultry industry in 2004 from Sneha  farms. Later worked in Japfa & Suguna where he got a good exposure to  various divisions, labs etc. Worked as manager Health & QC as well as QA. He got expertise in microbiology & nutrition divisions. He conducted various field trials in lab as well as on fields for different drugs for the betterment of industry.
+              In 2010 he joined Mayuri group of companies. He established two new labs here. The breeder capacity was doubled in the first two years of tenure. His company got recognition as best performing in this sector with larger batch sizes. He made pivotal growth in integration division with many fold increase in placements. It's a leading company in terms of performance & quality. He made to start two new divisions in commercial layer with 3.5 lack capacity & a small pivotal dairy unit of 200 buffaloes. He has attended more than 100 technical sessions & seminars.
+              He is a well-known technical  person in the core of the industry with experiences in all divisions of poultry, large animals such as broiler breeding, commercial layers, broiler farming in health & nutrition both aspects with a specific recognition of problem solving.
+            </p>
+            <strong>Services rendered</strong>
+            <ol>
+              <li>Microbiology lab - HA, HI, culture ABST, Health audit of farm, hatchery. Isolation & identification of pathogenic bacteria & fungi.</li>
+              <li>Nutrition - wet chemistry analysis of feed & raw materials for various crucial parameters , cv test.</li>
+              <li>Custom designing of vaccination schedule & feed formulations based on area & period with latest updates in least cost for better  profitability.</li>
+              <li>Managemental practices training for all farming.</li>
+              <li>Problem solving.</li>
+            </ol>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="jayaramModalId" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Dr. Jayararaman Krishnarajan (Poultry – Breeding, Farming & Health)</h4>
+          </div>
+          <div class="modal-body">
+            <center><div class="user jayaram">
+            </div></center>
+            <p>
+              Dr. Jayaraman, a graduate of Madras Veterinary College has 23 years of experience in poultry industry. He is heading technical services function of Kemin Industries South Asia (P) Ltd., He has expertise in various fields which includes Breeding farming, hatchery operation and pure line operations. He is known in the industry for his trouble shooting capabilities as well as differential diagnosis of poultry diseases. Also he has worked in various capacities in big companies both in India and abroad.
+              In poultry production, he has handled different strains both in broiler and layers. A familiar face in the industry, known for technical expertise in Disease Diagnosis ,  is  a sought after person during outbreaks and difficult times .He travelled so  extensively in Indian market and across south Asia and well known During his stints in Pharma as a Technical person. Delivered many lectures on Diseases and Disease Management.
+              Well Known in The Market for acumen in the field of vaccines and Interpretation of Titres.
+              Co-authored few articles and was published in reputed national and international magazines. He also developed a rapid detection Kit for the Clostridium perfringens which causes the Necrotic enteritis in the poultry
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="sadashivModalId" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Dr. Sadashiv Rokade</h4>
+          </div>
+          <div class="modal-body">
+            <center><div class="user sadashiv">
+            </div></center>
+            <p>
+              Dr.Sadashiv Rokade is a Chairman & Managing Director of the “TRYVET”. He is a veterinarian by profession having experience more than 15 years in the poultry industry
+              </br>
+              </br>
+              He believes in “Prevention is better than the cure”& always following this principal while consulting the farmers.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!--Modal for products info -->
+
+  <div class="modal fade" id="litratureModalId" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+            <img class="img-responsive-height" style="height:700px" src="img/coliproLitrature.jpg" alt="">
+        </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+    <!-- Modal Panel Ends -->
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-
+    <script src="js/responsiveslides.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/poulproMain.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script>
 
+
     function initMap() {
-      var uluru = {lat: 17.4483, lng: 78.3915};
+      var uluru = {lat: 17.3688, lng: 78.5247};
       var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 8,
         center: uluru
@@ -386,16 +608,16 @@
         // Enable map zooming with mouse scroll when the user clicks the map
     $('.map').on('click', onMapClickHandler);
 
-    Pace.on("done", function(){
+  /*  Pace.on("done", function(){
           $(".pace").hide();
           $("nav").css("opacity", "1");
-          $("header").css("opacity", "1");
+        //  $("header").css("opacity", "1");
           $("section").css("opacity", "1");
           $("aside").css("opacity", "1");
           $("footer").css("opacity", "1");
-    });
+    });*/
 
-
+    $('.carousel').carousel();
     </script>
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
