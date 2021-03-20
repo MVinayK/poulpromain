@@ -345,6 +345,9 @@ hr.small {
 
 .map iframe {
     pointer-events: none;
+    border: 0;
+    width: 100%;
+    padding-bottom: 2%;
 }
 
 /* Footer */
